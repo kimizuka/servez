@@ -6,9 +6,9 @@ html {
 }
 body {
     margin: 0;
-    background-color: #1a2e5d;
+    background-color: #424242;
     color: white;
-    font-family: sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
 }
 pre {
     margin: 0;
@@ -88,25 +88,27 @@ input {
 }
 
 .buttons {
-    padding-top: s1em;
+    margin-top: 1.5em;
 }
 .buttons button {
     font-size: large;
 }
 button {
-   border: none;
-   padding: .5em 1em;
-   text-decoration: none;
-   background-color: #8ca4ff;
+    border: none;
+    padding: .5em 1em;
+    text-decoration: none;
+    background-color: #616161;
 }
 button:hover:enabled {
-   box-shadow:inset 1px 1px 0px 0px #fff6af;
-   background-color:#dc4;
+   background-color:#888;
 }
 button:disabled {
     background-color: #888;
     color: #666;
     text-shadow: none;
+}
+button:focus {
+    outline: none;
 }
 #title {
     margin-bottom: 1em;
@@ -115,7 +117,7 @@ button:disabled {
     vertical-align: middle;
 }
 .settings, #logview, #title {
-    background-color: #284eb7;
+    background-color: #212121;
     padding: 1em;
 }
 #logview {
@@ -132,7 +134,7 @@ button:disabled {
 #log {
     flex: 1 1 auto;
     overflow: auto;
-    background-color: #001e56;
+    background-color: #424242;
     padding: .25em .5em;
 }
 .error {
